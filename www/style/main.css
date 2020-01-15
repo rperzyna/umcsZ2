@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.containerLeft {
+    display: grid;
+    grid-template-columns: auto 45% 45%;
+}
+
+.containerRight {
+    display: grid;
+    grid-template-columns: 80% auto;
+    height: 100%;
+}
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.containerTxt {
+    height: 100%;
+    display: grid;
+    grid-auto-rows: 5% 10% auto 10% 2%;
+}
+
+.border {
+    background: black;
+}
+.map {
+    background: white;
+}
+
+.grafika img{
+    width: 100%;
+    max-height: 600px;
+    height: 70%;
+}
+.title {
+    font-size: 20px;
+    padding: 5px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.link {
+    font-size: 20px;
+    padding: 0 auto;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.opis {
+    padding: 0 10px;
+    text-align: justify;
+}
